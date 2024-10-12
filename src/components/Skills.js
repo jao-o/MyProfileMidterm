@@ -19,8 +19,8 @@ const Skills = () => {
       <ul className="list-group">
         <li className="list-group-item">JavaScript</li>
         <li className="list-group-item">React</li>
-        <li className="list-group-item">Python</li>
-        <li className="list-group-item">Node.js</li>
+        <li className="list-group-item">HTML</li>
+        <li className="list-group-item">CSS</li>
         <li className="list-group-item">Java</li>
       </ul>
       
@@ -28,9 +28,9 @@ const Skills = () => {
       <ul className="list-group">
         <li className="list-group-item">Creative Writing</li>
         <li className="list-group-item">Technical Writing</li>
-        <li className="list-group-item">Copywriting</li>
+        <li className="list-group-item">Comedy</li>
         <li className="list-group-item">Scriptwriting</li>
-        <li className="list-group-item">Blogging</li>
+        <li className="list-group-item">Poetry</li>
       </ul>
     </div>
   );
