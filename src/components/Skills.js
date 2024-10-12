@@ -19,9 +19,9 @@ const Skills = () => {
       <h3 className="mt-4">Programming Skills</h3>
       <ol className="list-group list-group-numbered">
         <li className="list-group-item">JavaScript</li>
-        <li className="list-group-item">React</li>
-        <li className="list-group-item">Python</li>
-        <li className="list-group-item">Node.js</li>
+        <li className="list-group-item">React.js</li>
+        <li className="list-group-item">HTML/CSS</li>
+        <li className="list-group-item">Laravel</li>
         <li className="list-group-item">Java</li>
       </ol>
       
@@ -29,9 +29,9 @@ const Skills = () => {
       <ol className="list-group list-group-numbered">
         <li className="list-group-item">Creative Writing</li>
         <li className="list-group-item">Technical Writing</li>
-        <li className="list-group-item">Copywriting</li>
+        <li className="list-group-item">Comedy</li>
         <li className="list-group-item">Scriptwriting</li>
-        <li className="list-group-item">Blogging</li>
+        <li className="list-group-item">Public Speaking</li>
       </ol>
     </div>
   );
