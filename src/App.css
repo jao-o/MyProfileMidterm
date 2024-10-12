@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-color: black; /* Set background to black */
+  color: white; /* Set text color to white */
+  min-height: 100vh; /* Full viewport height */
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
 }
 
 .App-logo {
@@ -14,18 +21,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: black; /* Keep header background black */
+  min-height: 100vh; /* Full viewport height */
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; /* Set text color to white */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* You may want to adjust this color to fit with the dark theme */
 }
 
 @keyframes App-logo-spin {
