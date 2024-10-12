@@ -15,23 +15,24 @@ const Skills = () => {
       }}
     >
       <h2 className="mt-4">My Skills</h2>
+      
       <h3 className="mt-4">Programming Skills</h3>
-      <ul className="list-group">
+      <ol className="list-group list-group-numbered">
         <li className="list-group-item">JavaScript</li>
         <li className="list-group-item">React</li>
-        <li className="list-group-item">HTML</li>
-        <li className="list-group-item">CSS</li>
+        <li className="list-group-item">Python</li>
+        <li className="list-group-item">Node.js</li>
         <li className="list-group-item">Java</li>
-      </ul>
+      </ol>
       
       <h3 className="mt-4">Writing Skills</h3>
-      <ul className="list-group">
+      <ol className="list-group list-group-numbered">
         <li className="list-group-item">Creative Writing</li>
         <li className="list-group-item">Technical Writing</li>
-        <li className="list-group-item">Comedy</li>
+        <li className="list-group-item">Copywriting</li>
         <li className="list-group-item">Scriptwriting</li>
-        <li className="list-group-item">Poetry</li>
-      </ul>
+        <li className="list-group-item">Blogging</li>
+      </ol>
     </div>
   );
 };
